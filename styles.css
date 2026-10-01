@@ -108,3 +108,56 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+/* CONTACTO */
+
+#contacto {
+    text-align: center;
+}
+
+#contacto p {
+    margin-bottom: 15px;
+}
+
+#contacto form {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+#contacto label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#contacto input,
+#contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#contacto textarea {
+    resize: vertical;
+}
+
+#contacto button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #1677a8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#contacto button:hover {
+    background-color: #125f85;
+}
